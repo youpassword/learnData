@@ -5,6 +5,13 @@ git remote add origin <server> Èç¹ûÄã»¹Ã»ÓĞ¿ËÂ¡ÏÖÓĞ²Ö¿â£¬²¢Óû½«ÄãµÄ²Ö¿âÁ¬½Óµ½Ä³¸
 git checkout -b feature_x ´´½¨Ò»¸ö½Ğ×ö¡°feature_x¡±µÄ·ÖÖ§£¬²¢ÇĞ»»¹ıÈ¥£º
 git checkout master ÇĞ»ØÖ÷·ÖÖ§
 git branch ²é¿´µ±Ç°ËùÓĞ·ÖÖ§ 
+git branch -v ÈôÒª²é¿´¸÷¸ö·ÖÖ§×îºóÒ»¸öÌá½»¶ÔÏóµÄĞÅÏ¢£¬ÔËĞĞ git branch -v
+Òª´Ó¸ÃÇåµ¥ÖĞÉ¸Ñ¡³öÄãÒÑ¾­£¨»òÉĞÎ´£©Óëµ±Ç°·ÖÖ§ºÏ²¢µÄ·ÖÖ§£¬¿ÉÒÔÓÃ --merged ºÍ --no-merged Ñ¡Ïî£¨Git 1.5.6 ÒÔÉÏ°æ±¾£©¡£±ÈÈçÓÃ git branch --merged ²é¿´ÄÄĞ©·ÖÖ§ÒÑ±»²¢Èëµ±Ç°·ÖÖ§£¨Òë×¢£ºÒ²¾ÍÊÇËµÄÄĞ©·ÖÖ§ÊÇµ±Ç°·ÖÖ§µÄÖ±½ÓÉÏÓÎ¡££©£º
+ÁíÍâ¿ÉÒÔÓÃ git branch --no-merged ²é¿´ÉĞÎ´ºÏ²¢µÄ¹¤×÷£º
+
+$ git branch --no-merged
+  testing
+Ëü»áÏÔÊ¾»¹Î´ºÏ²¢½øÀ´µÄ·ÖÖ§¡£ÓÉÓÚÕâĞ©·ÖÖ§ÖĞ»¹°üº¬×ÅÉĞÎ´ºÏ²¢½øÀ´µÄ¹¤×÷³É¹û£¬ËùÒÔ¼òµ¥µØÓÃ git branch -d É¾³ı¸Ã·ÖÖ§»áÌáÊ¾´íÎó£¬ÒòÎªÄÇÑù×ö»á¶ªÊ§Êı¾İ£º
 
 $ git branch -d testing
 error: The branch 'testing' is not fully merged.
