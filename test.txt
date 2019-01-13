@@ -1,0 +1,2 @@
+Git init 新建git仓库
+git add test 新增
