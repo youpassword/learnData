@@ -20,3 +20,5 @@ If you are sure you want to delete it, run 'git branch -D testing'.
 
 prev | next
 https://git-scm.com/docs git 命令学习网站
+meger命令的使用
+git merger --no-f sourcebranch
