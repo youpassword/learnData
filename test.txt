@@ -21,5 +21,13 @@ git meger <branchname> 合并其他本地分支到master本地分支，在从本地master 分支提交
 
 prev | next
 https://git-scm.com/docs git 命令学习网站
-mege命令的使用
+merge命令的使用
 git merge --no-f sourcebranch
+remote 命令
+git remote -v  查看当前地址
+git remote add pb  https://github.com/youpassword/learnData.git 新增地址
+ssh-keygen -t -C "youremail@***.com" 生成私钥
+git config --global -l 查看全局配置
+git config --global user.name 
+git config --global user.email  
+
