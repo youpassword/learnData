@@ -17,8 +17,9 @@ $ git branch -d testing
 error: The branch 'testing' is not fully merged.
 If you are sure you want to delete it, run 'git branch -D testing'.
 不过，如果你确实想要删除该分支上的改动，可以用大写的删除选项 -D 强制执行，就像上面提示信息中给出的那样。
+git meger <branchname> 合并其他本地分支到master本地分支，在从本地master 分支提交到远程master分支。合并代码完成。
 
 prev | next
 https://git-scm.com/docs git 命令学习网站
-meger命令的使用
-git merger --no-f sourcebranch
+mege命令的使用
+git merge --no-f sourcebranch
